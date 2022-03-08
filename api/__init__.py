@@ -22,4 +22,3 @@ async def create_expenses(expenses: Expenses):
     else:
         expense_dict.update({"category": expenses.category})
     return expenses
-
